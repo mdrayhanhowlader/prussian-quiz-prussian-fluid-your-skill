@@ -25,7 +25,7 @@ const Quiz = () => {
 
     return (
         <div>
-            <h2 className='text-center text-3xl pt-4 font-semibold text-purple-500'>Total Quizzes: {items.total}</h2>
+            <h2 className='text-center text-3xl pt-4 font-semibold text-purple-500'>Quiz of {items.name}</h2>
             <div className='w-3/5 mx-auto mt-16 grid md:grid-cols-2 gap-4'>
                 {
                     questions.map(item => 
