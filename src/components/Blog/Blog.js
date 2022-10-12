@@ -7,15 +7,44 @@ const Blog = () => {
             <div className='w-4/5 mx-auto'>
             <div className='bg-slate-300 rounded my-6 p-4'>
                 <h2 className='font-semibold text-2xl'>What is the purpose of react routes?</h2>
-                <p>React uses a declarative paradigm that makes it easier to reason about your application and aims to be both efficient and flexible. It designs simple views for each state in your application, and React will efficiently update and render just the right component when your data changes.</p>
+                <p>A tool that allows you to handle routes in a web app,
+                using dynamic routing. Dynamic routing takes place as
+                the app is rendering on your machine, unlike the old 
+                routing architecture where the routing is handled in
+                a configuration outside of a running app. React router
+                implements a component-based approach to routing.
+                It provides different routing components according 
+                to the needs of the application and platform. The 
+                following illustration shows how react router’s 
+                dynamic routing works as compared to traditional 
+                static routing.</p>
             </div>
             <div className='bg-slate-300 rounded my-6 p-4'>
                 <h2 className='font-semibold text-2xl'>How does context api works?</h2>
-                <p>Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and cannot be passed to other components.</p>
+                <p>The React Context API was been around
+                as an experimental feature for a while 
+                now but finally became safe to use in production
+                last year, solving one major problem React problem
+                — prop drilling. In this article, Toptal Freelance
+                Javascript Developer Boris Yordanov will introduce
+                us to the API and illustrate it with two basic web
+                store apps, one built with the Context API and one
+                without it.</p>
             </div>
             <div className='bg-slate-300 rounded my-6 p-4'>
-                <h2 className='font-semibold text-2xl'>What is useRef and how does works?</h2>
-                <p>loading..............................</p>
+                <h2 className='font-semibold text-2xl'>What is useRef Hook and how does works?</h2>
+                <p>A hook is a special function which enables one use state
+                 and other React features without writing ES6 class 
+                 components which are generally considered difficult 
+                 to understand, use and master.
+                 useRef hook is part of the React Hooks API. It is a 
+                 function which takes a maximum of one argument and 
+                 returns an Object. The returned object has a property 
+                 called current whose value is the argument passed to 
+                 useRef. If you invoke it without an argument, the 
+                 returned object's current property is set to undefined.
+                 The code below illustrates how to invoke the useRef hook
+                 in functional components</p>
             </div>
             </div>
             
