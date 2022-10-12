@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import Blog from './components/Blog/Blog';
+import ErrorPage from './components/Error/ErrorPage';
 import Home from './components/Home/Home';
 import Main from './components/Main/Main';
 import Quiz from './components/Quiz/Quiz';
@@ -47,6 +48,10 @@ function App() {
         }
       ]
     },
+    {
+      path: '*',
+      element: <ErrorPage></ErrorPage>
+    }
   ])
   return (
     <RouterProvider router={router}></RouterProvider>
