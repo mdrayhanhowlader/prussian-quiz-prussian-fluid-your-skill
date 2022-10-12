@@ -35,7 +35,7 @@ const Quiz = () => {
                             <EyeIcon className='w-6 h-6' onClick={() => showCorrectAnswer(item.correctAnswer)}></EyeIcon>
                         </p>
 
-                        <h2 className='font-bold'>{item.question.slice(3, -4)}
+                        <h2 className='font-bold text-slate-900'>{item.question.slice(3, -4)}
                         </h2>
                         
                         <h4 className='px-4 py-2 border border-1 border-red-500 rounded-2xl my-2 hover:bg-slate-400 text-center'>
