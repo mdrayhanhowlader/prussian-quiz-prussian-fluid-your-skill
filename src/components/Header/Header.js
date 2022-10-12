@@ -25,7 +25,6 @@ const Header = () => {
                     <Link className='block md:inline md:mr-6 pl-2 text-white bg-violet-400 hover:bg-red-400 md:hover:bg-inherit md:bg-inherit md:text-black py-2 md:py-0 mb-2 md:mb-0 hover:text-violet-500 font-medium' to="/statistics">Statistics</Link>
                     <Link className='block md:inline md:mr-6 pl-2 text-white bg-violet-400 hover:bg-red-400 md:hover:bg-inherit md:bg-inherit md:text-black py-2 md:py-0 mb-2 md:mb-0 hover:text-violet-500 font-medium' to="/blog">Blog</Link>
 
-                    {/* <Link className='mr-6 hover:text-violet-500 font-medium' to="/topics">Topics</Link> */}
                     </nav>
                 </div>
 
